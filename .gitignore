@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Experiment outputs (large + reproducible)
+runs/
+cache/
+*.pt
+*.safetensors
+
+# Secrets — never commit
+.env
+HF_TOKEN
+*.pem
+*.key
+
+# Local HF cache (in case it's symlinked into the repo)
+.cache/

@@ -1,0 +1,9 @@
+# Use the Dockerfile for reproducible runs; this list is for non-Docker installs.
+# Base PyTorch comes from the pytorch/pytorch:2.7.0-cuda12.8-cudnn9-runtime image
+# in Docker, or install separately for local use.
+
+torch>=2.7.0
+peft
+auto-round
+nvidia-modelopt[hf]
+bitsandbytes>=0.43.0
